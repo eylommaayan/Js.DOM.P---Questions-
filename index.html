@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>שאלות ותשובות - JavaScript</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- extra fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet" />
+  <!-- styles -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <section class="questions">
+    <!-- title -->
+    <div class="title">
+      <h2>שאלות נפוצות על JavaScript</h2>
+    </div>
+    <!-- questions -->
+    <div class="section-center">
+      <!-- שאלה 1 -->
+      <article class="question">
+        <div class="question-title">
+          <p>מהי שפת JavaScript?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+            <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            JavaScript היא שפת תכנות מונחית עצמים המשמשת בעיקר לפיתוח צד לקוח (Frontend),
+            ומשמשת להוספת אינטראקטיביות, אנימציות, בדיקות ולוגיקה לדפי אינטרנט.
+          </p>
+        </div>
+      </article>
+
+      <!-- שאלה 2 -->
+      <article class="question">
+        <div class="question-title">
+          <p>מה ההבדל בין JavaScript ל־Java?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+            <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            למרות הדמיון בשם, Java ו־JavaScript הן שפות שונות לחלוטין. Java היא שפה מונחית עצמים שמתקמפלת ומופעלת על שרתים,
+            ואילו JavaScript רצה בדפדפן ומשמשת בעיקר לפיתוח אתרים.
+          </p>
+        </div>
+      </article>
+
+      <!-- שאלה 3 -->
+      <article class="question">
+        <div class="question-title">
+          <p>האם אפשר להשתמש ב־JavaScript גם בצד השרת?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+            <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            כן. באמצעות סביבת הריצה Node.js ניתן להריץ קוד JavaScript בצד השרת, לבנות API-ים, לנהל מסדי נתונים ועוד.
+          </p>
+        </div>
+      </article>
+
+      <!-- שאלה 4 -->
+      <article class="question">
+        <div class="question-title">
+          <p>מהם משתנים ומה ההבדל בין var, let ו־const?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+            <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            משתנים מאחסנים מידע. <code>var</code> הוא ישן ונפוץ פחות, <code>let</code> מאפשר שינוי ערך, ו־<code>const</code> מגדיר ערך קבוע שלא ניתן לשנות.
+          </p>
+        </div>
+      </article>
+
+      <!-- שאלה 5 -->
+      <article class="question">
+        <div class="question-title">
+          <p>איך JavaScript מגיבה לאירועים בדף?</p>
+          <button type="button" class="question-btn">
+            <span class="plus-icon"><i class="far fa-plus-square"></i></span>
+            <span class="minus-icon"><i class="far fa-minus-square"></i></span>
+          </button>
+        </div>
+        <div class="question-text">
+          <p>
+            באמצעות Event Listeners – ניתן לקבוע פעולות שיתרחשו כשמתבצע אירוע כמו לחיצה, הקלדה או תנועה של העכבר.
+            לדוגמה: <code>element.addEventListener('click', function() {...})</code>
+          </p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- javascript -->
+  <script src="app.js"></script>
+</body>
+
+</html>
